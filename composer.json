@@ -1,0 +1,19 @@
+{
+    "name": "tjbp/currencies",
+    "description": "Fast and lightweight utilities for ISO 4217 currency data.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Tom Pitcher",
+            "email": "github.com@tjbp.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Tjbp\\Currencies\\": "src/"
+        }
+    },
+    "require-dev": {
+        "riimu/kit-phpencoder": "^2.1"
+    }
+}
